@@ -50,7 +50,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>COMPOSANT1_EXPORTS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(ProjectDir)..\Interfaces</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
@@ -89,6 +89,9 @@
     </ProjectReference>
     <ProjectReference Include="..\Composant2\Composant2.vcxproj">
       <Project>{38791a35-6bdd-42b2-873f-621244fb3426}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Composant4\Composant4.vcxproj">
+      <Project>{6ddc338b-c43c-42b5-bc82-36394c50dd23}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
